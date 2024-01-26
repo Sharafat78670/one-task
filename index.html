@@ -10,6 +10,30 @@
             display: flex;
             justify-content: space-around;
         }
+        section{
+            background-color: aquamarine;
+            width: 20%;
+            padding: 0 10px;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px 5px lightskyblue;
+        }
+        h2{
+            text-align: center;
+            background-color: black;
+            color: white;
+            width: 80%;
+            margin: 0 auto;
+            padding: 10px;
+        }
+        @media screen and (max-width:576px) {
+            .java{
+                flex-direction: column;
+            }
+            section{
+                width: 100%; 
+            }
+        }
     </style>
 </head>
 
@@ -42,7 +66,11 @@
             </section>
             <!-- Task -3 -->
             <section>
-
+                <h2>Remainder</h2>
+                <p id="given-num"></p>
+                <p id="divided"></p>
+                <p id="remainder"></p>
+                <script src="remainder.js"></script>
             </section>
             <!-- Task -4 -->
             <section>
