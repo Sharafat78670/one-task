@@ -1,0 +1,10 @@
+var apple_price=400;
+var orange_price=300;
+var total_price = apple_price + orange_price;
+var paid_money= 1000;
+var back_money= paid_money - total_price;  
+document.getElementById("apple").innerHTML="Apple price is -"+apple_price+"taka ."
+document.getElementById("orange").innerHTML="Orange price is -"+orange_price+"taka ."
+document.getElementById("total").innerHTML="Total price is -"+total_price+"taka ."
+document.getElementById("paid").innerHTML="Paid money -"+paid_money+"taka ."
+document.getElementById("back").innerHTML="The shopkeeper will return money "+back_money+".";
