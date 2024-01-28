@@ -1,4 +1,4 @@
-var weight= 105;
+var weight= 65;
 var hight= 1.8;
 
 var BMI = weight / (hight)^2;

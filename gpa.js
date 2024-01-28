@@ -1,8 +1,8 @@
 var math=78;
-var science=68;
-var english=65;
-var islam=75;
-var ict=55;
+var science=88;
+var english=85;
+var islam=95;
+var ict=85;
 
 var total= math+science+english+islam+ict;
 console.log("Total mark is - "+total+" .")
